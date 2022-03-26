@@ -125,7 +125,7 @@ def get_apartments():
 
     #each page has 119 posts so each new page is defined as follows: s=120, s=240, s=360, and so on. So we need to step in size 120 in the np.arange function
     pages = np.arange(0, results_total+1, 120)
-    MY_KEY = "AIzaSyBeKXFT-0g8nPb4N0IrDvP0TkJLGr30H7c"
+    MY_KEY = <"GOOGLE MAP API KEY">
     appartment_counter =0
     iterations = 0
 
